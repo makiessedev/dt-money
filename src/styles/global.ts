@@ -4,6 +4,7 @@ const GlobalStyles = createGlobalStyle`
   :root{
     --red: #E52E4D;
     --blue: #5429CC;
+    --green: #36CC95;
 
     --blue-light: #6933FF;
 
@@ -40,7 +41,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background-color: --background;
+    background-color: var(--background);
   }
 
   button {
